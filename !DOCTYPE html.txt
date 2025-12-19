@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Elmayana</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #2e3192, #8e2de2); /* Warna gradasi latar belakang */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1); /* Efek kaca transparan */
+            backdrop-filter: blur(10px);
+            padding: 40px 20px;
+            border-radius: 30px;
+            width: 320px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #e0115f; /* Border pink melingkar */
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 { margin: 10px 0 5px; font-size: 24px; }
+        .subtitle { color: #ff007f; font-weight: bold; font-size: 14px; margin-bottom: 20px; }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .info-title { font-weight: bold; color: #a29bfe; margin-bottom: 10px; display: block; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="foto-profil.jpg" class="profile-pic" alt="Amni Ramdani">
+        
+        <h1>Amni Ramdani</h1>
+        <div class="subtitle">MAHASISWA</div>
+
+        <div class="info-card">
+            <span class="info-title">Informasi Pribadi</span>
+            <p><strong>ALAMAT, DOMISILI:</strong><br>Lombok Timur, Indonesia</p>
+        </div>
+    </div>
+
+</body>
+</html>
